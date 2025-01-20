@@ -1,0 +1,30 @@
+version: "3"
+services:
+  scan:
+    build: ./scan
+    volumes:
+      - /host/data:/app/data
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=yourpassword
+      - MYSQL_DATABASE=file_monitor
+
+  deal:
+    build: ./deal
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=yourpassword
+      - MYSQL_DATABASE=file_monitor
+
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=yourpassword
+      - MYSQL_DATABASE=file_monitor
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
