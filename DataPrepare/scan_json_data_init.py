@@ -31,7 +31,7 @@ class Scan_JSON:
     def __init__(self):
 
         # root_directory = "/root/lanq"
-        self.root_dir = r"F:\LifeQ\LifeDataProject\JSONExample"
+        self.rooDJSt_dir = r"F:\LifeQ\LifeDataProject\JSONExample"
 
     def get_device_id(self, file_path):
         """从文件路径中解析设备 ID"""

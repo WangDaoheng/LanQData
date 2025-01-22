@@ -1,0 +1,40 @@
+{
+    "message": {
+        "category": "daily",
+        "sle_type": "lifeq.core.sle.bioage"
+    },
+    "profile": {
+        "id": "63d5a7d0-bea8-473f-8765-6c9760c6d465",
+        "sources": []
+    },
+    "profile_id": "63d5a7d0-bea8-473f-8765-6c9760c6d465",
+    "publisher_service": "lifeq_cn_research:sle_bioage",
+    "publisher_service_id": 21,
+    "urls": [
+        "https://bioage.xinzhi360.com/api/v1/bioage/v1.0?\u0026date=2025-01-18\u0026recalculate=true\u0026timeZoneOffsetInMinutes=120"
+    ],
+    "source_ids": null,
+    "subscriber_context": {
+        "bluezone_cn:embassy_consumer": []
+    },
+    "subscriber_service_ids": [
+        37
+    ],
+    "subscriber_services": [
+        "bluezone_cn:embassy_consumer"
+    ],
+    "subscription_tokens": [
+        {
+            "expires_at": 1737472617,
+            "access_token": "eyJhZXNfaXYiOiJMaGlISWN1NmVsd0JpaTdQdlJmbjR3PT0iLCJhZXNfbWVzc2FnZSI6IlI5SHlYQUJEV3RuSkVudGY1TTVxSlQyb1BsODV3OTl6bFdzVXNtN21OVlh2Q3dFNVJBY2I0QkUwTmR6S3QrMjVmN1F1ZDRYOFkrc2xFOTllS29JSk5CWS90d3FlMHZNRnVEM2p6QnFtdHZNVU9rVlk4SjIwZHFXZ0lWY3pISGtzSlJleTlOb1gveUhMM2daSEZrSERscTNUV1lKNDkvN2hUekQ0RGN3Q1dCWFNIb1BTci9PNFI3bnYrNjY2ODFVbnNwSnR1MVpJY2c5a1JJV1FRMFEzZ3ozU3FGSENCZGlhNW9EOC9UWjhpTEFxR3ZyU2RBc09rQzI1cWZmNmcvdGtKcUVQQU85bHM2UVZDYVB6dEFJb0NpbE9zWEVOQ2RCUTZIL1Y0M0l1a09wZU1JMmJOS1VxRlNwUkgvKzUwb1BHMDdyeVdaRWpvYjlNZ3NMNFJOdTIySmIrWGw5ZmJjMFJ0SUJzWW9OL2FwWDA1c2tFUjFTZHRBa1VJaGdRSUdid3gxMlZub0VaNnhNdExTZTRkbU42SktTU20xNGtwTEhlIiwicnNhX21lc3NhZ2UiOiJLSnpucU1XVkxaRmx0WXRXYUlqOEg3OFdsR0FZdUt4T25DNHc5cFZrVjk1c0NFTDJtUlZUdnpmUDFhMmtzMlJsNkVkZElrSU5MdWtmSTZKdm45Z25odmttZGNpcGJ5ZjJPME5ZRW8yeEhZTHVOWUJUV1cwTVVUYUE4WDlBWWFuTnNROUNsMjRqTTRHbWVGUmlDS0tiX2xIT2pMRlhkTXpWVV9GRHNBR0N6d0hQVjhJSFl2WHEtemV2TTBaTl96eHZrdnIwYVAyTjY3akFQRGlld0xvdk9obEd5a3NrYWtfaEZsVzNHT0R5ck1adkVyaG41TGJ0czFLLTItb1ZUaDJpZlZzLXo2UFNsenVkNE1oeTNhZGFieUVZanFLR04wa0FpUGZTMnZBMkEwZ0xfaHdNai0xdmdHMzZEbTNVTDNBVUxYS1FTeDQ4dkRfUkRaQ3hXYTNLS2c9PSIsInJzYV9zaWduYXR1cmUiOiJtYXZjQW45YUFKTFBrbGw3T2JySWFGOEN1VEdoZlBYWTNLQXBQTVprNmpIeUU1bWxUcG1Yd1ZucFlzTTZIdDJ3cHMyeGFKRm8vaHl2dzdjQm5uSzFhNnFxSnBDdUFXcU5mMEFPZUNkNUlRV1VPQTNrTHRRMWhFeTNGcnZkNjdFZmFHZ1V0UG5vSUNqQ0MrcHRreHFzUHNqRk41dmJiS1JFYytjT080OVNMb3EyMTlKUnVocXpudkJ5TE93aVhPRlZheGlnTnA4RERjYVZwSm1ocEdlcTlGVWhvaGx0NUhVc2pmNmp0c2plekZvclBjRlRqMVFTbjlVQThPajVSNW5JYTlnWGFmMUVrQkx2eGRXdWZ1MExvNmNoR3VXZ0huL085aEFDc25KUzM5c3hhSDMzcTREL3dZdTQ3N1g5SCtMNUZsUk1NNU5MVVpBL25vM0FMT1FCa3hCTEJRV2hjclczbFVkbE9VUTAzNFNkUGtscmpSTmtYSFhURWxlRXhGSlNyL1lTN2l1STRvOVpoR3hzTUpmWXpJcGZMTWdvZ2wyaisveEx2OEcvTzdqYzQ0VDFOS25QbHJqaHo1MHpRMmo3SzhydCs3MHVNUE9sbzRkR1F3K3hjLzRwYUd2blRwekNpR29BYTVvcTBxcHdXK2krbDE5TUlPbXp2bWV6cFNBbTV1Qkt2ZDRPSVdpdkNkRWhLUWp3RS9lNFk2V2VzYW9ZV0ZxQ2N1ZC8rNnpXNlpFR3VjbSs0QmtVZjhKU1lqOU9QcnJxR09uaTkydUU4K3NqaDVpSDNPRC84QVJwYUVsQ05nancxcThmTUI5MUlBejdwT09YN1Q5SzUrUjV0MHZ3cUxaSDJ3TU5LOXJCUjhBbXpoNXdBUGtJcnpMdnBxUm5qZndQUXlZY2w0bz0ifQ==",
+            "subscriber_service": "bluezone_cn:embassy_consumer",
+            "subscriber_service_id": 37,
+            "solutions": [
+                {
+                    "id": 1
+                }
+            ],
+            "token_type": "Bearer"
+        }
+    ]
+}

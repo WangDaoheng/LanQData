@@ -1049,3 +1049,122 @@
 2025-01-22 18:08:24,907 - ERROR - Error in scan_directory: name 'datetime' is not defined
 2025-01-22 18:08:34,926 - ERROR - Error in scan_directory: name 'datetime' is not defined
 2025-01-22 18:08:44,950 - ERROR - Error in scan_directory: name 'datetime' is not defined
+2025-01-22 21:58:13,827 - INFO - package: mysql.connector.plugins
+2025-01-22 21:58:13,828 - INFO - plugin_name: caching_sha2_password
+2025-01-22 21:58:13,828 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-22 21:58:13,829 - INFO - package: mysql.connector.plugins
+2025-01-22 21:58:13,829 - INFO - plugin_name: mysql_native_password
+2025-01-22 21:58:13,830 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-22 21:58:14,883 - WARNING - Sub directory not found: JSONExample/demo\daily_summary
+2025-01-22 21:58:14,884 - WARNING - Sub directory not found: JSONExample/demo\near_real_time
+2025-01-22 21:58:14,884 - WARNING - Sub directory not found: JSONExample/demo\notification_message
+2025-01-22 21:58:14,884 - WARNING - Sub directory not found: JSONExample/demo\sle_bioage
+2025-01-22 21:58:24,893 - WARNING - Sub directory not found: JSONExample/demo\daily_summary
+2025-01-22 21:58:24,894 - WARNING - Sub directory not found: JSONExample/demo\near_real_time
+2025-01-22 21:58:24,894 - WARNING - Sub directory not found: JSONExample/demo\notification_message
+2025-01-22 21:58:24,894 - WARNING - Sub directory not found: JSONExample/demo\sle_bioage
+2025-01-22 21:58:34,906 - WARNING - Sub directory not found: JSONExample/demo\daily_summary
+2025-01-22 21:58:34,907 - WARNING - Sub directory not found: JSONExample/demo\near_real_time
+2025-01-22 21:58:34,907 - WARNING - Sub directory not found: JSONExample/demo\notification_message
+2025-01-22 21:58:34,907 - WARNING - Sub directory not found: JSONExample/demo\sle_bioage
+2025-01-22 21:58:44,915 - WARNING - Sub directory not found: JSONExample/demo\daily_summary
+2025-01-22 21:58:44,915 - WARNING - Sub directory not found: JSONExample/demo\near_real_time
+2025-01-22 21:58:44,915 - WARNING - Sub directory not found: JSONExample/demo\notification_message
+2025-01-22 21:58:44,915 - WARNING - Sub directory not found: JSONExample/demo\sle_bioage
+2025-01-22 21:58:54,921 - WARNING - Sub directory not found: JSONExample/demo\daily_summary
+2025-01-22 21:58:54,922 - WARNING - Sub directory not found: JSONExample/demo\near_real_time
+2025-01-22 21:58:54,922 - WARNING - Sub directory not found: JSONExample/demo\notification_message
+2025-01-22 21:58:54,922 - WARNING - Sub directory not found: JSONExample/demo\sle_bioage
+2025-01-22 21:59:06,481 - INFO - package: mysql.connector.plugins
+2025-01-22 21:59:06,481 - INFO - plugin_name: caching_sha2_password
+2025-01-22 21:59:06,482 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-22 21:59:06,482 - INFO - package: mysql.connector.plugins
+2025-01-22 21:59:06,482 - INFO - plugin_name: mysql_native_password
+2025-01-22 21:59:06,484 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-22 21:59:07,567 - WARNING - Sub directory not found: JSONExample\demo\daily_summary
+2025-01-22 21:59:07,568 - WARNING - Sub directory not found: JSONExample\demo\near_real_time
+2025-01-22 21:59:07,568 - WARNING - Sub directory not found: JSONExample\demo\notification_message
+2025-01-22 21:59:07,568 - WARNING - Sub directory not found: JSONExample\demo\sle_bioage
+2025-01-22 22:07:37,829 - INFO - package: mysql.connector.plugins
+2025-01-22 22:07:37,829 - INFO - plugin_name: caching_sha2_password
+2025-01-22 22:07:37,829 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-22 22:07:37,830 - INFO - package: mysql.connector.plugins
+2025-01-22 22:07:37,830 - INFO - plugin_name: mysql_native_password
+2025-01-22 22:07:37,831 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-22 22:10:15,839 - INFO - package: mysql.connector.plugins
+2025-01-22 22:10:15,839 - INFO - plugin_name: caching_sha2_password
+2025-01-22 22:10:15,839 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-22 22:10:15,840 - INFO - package: mysql.connector.plugins
+2025-01-22 22:10:15,840 - INFO - plugin_name: mysql_native_password
+2025-01-22 22:10:15,841 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-22 22:10:16,819 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\daily_summary\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737471998626727.json
+2025-01-22 22:10:16,823 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\daily_summary\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498170919391.json
+2025-01-22 22:10:16,827 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473038050026.json
+2025-01-22 22:10:16,832 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476643948387.json
+2025-01-22 22:10:16,836 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737478037345003.json
+2025-01-22 22:10:16,840 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737479835879719.json
+2025-01-22 22:10:16,844 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481638781879.json
+2025-01-22 22:10:16,848 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737483437460799.json
+2025-01-22 22:10:16,852 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485238743730.json
+2025-01-22 22:10:16,857 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737487038094105.json
+2025-01-22 22:10:16,861 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737488837107984.json
+2025-01-22 22:10:16,865 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490641923802.json
+2025-01-22 22:10:16,869 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737492436328441.json
+2025-01-22 22:10:16,873 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737494236372665.json
+2025-01-22 22:10:16,882 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496037943382.json
+2025-01-22 22:10:16,886 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737497869403533.json
+2025-01-22 22:10:16,890 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737472023531019.json
+2025-01-22 22:10:16,895 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473119279068.json
+2025-01-22 22:10:16,898 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476726765908.json
+2025-01-22 22:10:16,903 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481721417423.json
+2025-01-22 22:10:16,907 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485320543333.json
+2025-01-22 22:10:16,910 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490724089194.json
+2025-01-22 22:10:16,914 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496120908955.json
+2025-01-22 22:10:16,918 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498196596109.json
+2025-01-22 22:10:16,922 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737472023506285.json
+2025-01-22 22:10:16,926 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473119265039.json
+2025-01-22 22:10:16,931 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476726749932.json
+2025-01-22 22:10:16,935 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481721402751.json
+2025-01-22 22:10:16,939 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485320528842.json
+2025-01-22 22:10:16,942 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490724075373.json
+2025-01-22 22:10:16,946 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496120893826.json
+2025-01-22 22:10:16,950 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498196579798.json
+2025-01-22 22:13:26,084 - INFO - package: mysql.connector.plugins
+2025-01-22 22:13:26,085 - INFO - plugin_name: caching_sha2_password
+2025-01-22 22:13:26,085 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-22 22:13:26,085 - INFO - package: mysql.connector.plugins
+2025-01-22 22:13:26,086 - INFO - plugin_name: mysql_native_password
+2025-01-22 22:13:26,087 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-22 22:13:27,137 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\daily_summary\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737471998626727.json
+2025-01-22 22:13:27,142 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\daily_summary\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498170919391.json
+2025-01-22 22:13:27,147 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473038050026.json
+2025-01-22 22:13:27,151 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476643948387.json
+2025-01-22 22:13:27,155 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737478037345003.json
+2025-01-22 22:13:27,160 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737479835879719.json
+2025-01-22 22:13:27,164 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481638781879.json
+2025-01-22 22:13:27,168 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737483437460799.json
+2025-01-22 22:13:27,173 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485238743730.json
+2025-01-22 22:13:27,177 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737487038094105.json
+2025-01-22 22:13:27,181 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737488837107984.json
+2025-01-22 22:13:27,185 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490641923802.json
+2025-01-22 22:13:27,189 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737492436328441.json
+2025-01-22 22:13:27,194 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737494236372665.json
+2025-01-22 22:13:27,197 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496037943382.json
+2025-01-22 22:13:27,202 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\near_real_time\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737497869403533.json
+2025-01-22 22:13:27,206 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737472023531019.json
+2025-01-22 22:13:27,209 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473119279068.json
+2025-01-22 22:13:27,213 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476726765908.json
+2025-01-22 22:13:27,217 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481721417423.json
+2025-01-22 22:13:27,221 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485320543333.json
+2025-01-22 22:13:27,225 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490724089194.json
+2025-01-22 22:13:27,229 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496120908955.json
+2025-01-22 22:13:27,234 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\notification_message\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498196596109.json
+2025-01-22 22:13:27,239 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737472023506285.json
+2025-01-22 22:13:27,242 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737473119265039.json
+2025-01-22 22:13:27,246 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737476726749932.json
+2025-01-22 22:13:27,250 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737481721402751.json
+2025-01-22 22:13:27,255 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737485320528842.json
+2025-01-22 22:13:27,258 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737490724075373.json
+2025-01-22 22:13:27,263 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737496120893826.json
+2025-01-22 22:13:27,267 - INFO - Scanned new file: F:\LifeQ\LifeDataProject\JSONExample\demo\sle_bioage\2025-01-21\63d5a7d0-bea8-473f-8765-6c9760c6d465\file_1737498196579798.json
+2025-01-22 22:13:57,350 - INFO - 正在持续监控中，2025-01-22 22:13:27 - 2025-01-22 22:13:57 之间无新文件...........

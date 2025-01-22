@@ -1,0 +1,78 @@
+{
+    "data": {
+        "activityEvents": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737476159,
+                "v": {
+                    "stationaryEventDurationSeconds": 2567,
+                    "stationaryLowDurationSeconds": 1655,
+                    "stationaryOtherDurationSeconds": 912
+                }
+            },
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737478730,
+                "v": {
+                    "activeCalories": 47.03,
+                    "activeDurationSeconds": 615,
+                    "activeEventDurationSeconds": 615,
+                    "activeIntensitySeconds": 429,
+                    "activeLightDurationSeconds": 372,
+                    "activeModerateDurationSeconds": 243,
+                    "activeOtherDurationSeconds": 0,
+                    "activeVigorousDurationSeconds": 0
+                }
+            }
+        ],
+        "continuousHeartRate": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737478799,
+                "v": {
+                    "averageHeartRate": 92.0,
+                    "maxHeartRate": 116.0,
+                    "minHeartRate": 79.0
+                }
+            },
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737478800,
+                "v": {
+                    "averageHeartRate": 114.0,
+                    "maxHeartRate": 137.0,
+                    "minHeartRate": 97.0
+                }
+            }
+        ],
+        "continuousUtilization": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737478799,
+                "v": {
+                    "utilization": 15,
+                    "utilizationSeconds": 900,
+                    "validHeartRate": 15,
+                    "validHeartRateSeconds": 900
+                }
+            },
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737478800,
+                "v": {
+                    "utilization": 15,
+                    "utilizationSeconds": 900,
+                    "validHeartRate": 15,
+                    "validHeartRateSeconds": 900
+                }
+            }
+        ]
+    },
+    "header": {
+        "count": 6,
+        "endDate": "2025-01-21",
+        "endTime": "19:00",
+        "startDate": "2025-01-21",
+        "startTime": "18:15:59"
+    }
+}

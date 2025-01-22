@@ -1,0 +1,54 @@
+{
+    "data": {
+        "activityEvents": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737466025,
+                "v": {
+                    "stationaryEventDurationSeconds": 3593,
+                    "stationaryLowDurationSeconds": 2064,
+                    "stationaryOtherDurationSeconds": 1529
+                }
+            },
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737469750,
+                "v": {
+                    "stationaryEventDurationSeconds": 876,
+                    "stationaryLowDurationSeconds": 858,
+                    "stationaryOtherDurationSeconds": 18
+                }
+            }
+        ],
+        "continuousHeartRate": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737468900,
+                "v": {
+                    "averageHeartRate": 86.67,
+                    "maxHeartRate": 120.0,
+                    "minHeartRate": 64.0
+                }
+            }
+        ],
+        "continuousUtilization": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737468900,
+                "v": {
+                    "utilization": 45,
+                    "utilizationSeconds": 2700,
+                    "validHeartRate": 45,
+                    "validHeartRateSeconds": 2700
+                }
+            }
+        ]
+    },
+    "header": {
+        "count": 4,
+        "endDate": "2025-01-21",
+        "endTime": "16:29:10",
+        "startDate": "2025-01-21",
+        "startTime": "15:27:05"
+    }
+}

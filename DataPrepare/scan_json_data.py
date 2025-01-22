@@ -1,6 +1,7 @@
 import os
 import time
 import logging
+from datetime import datetime
 from mysql.connector import Error
 from mysql.connector import pooling
 
@@ -25,13 +26,13 @@ db_config = {
 db_pool = pooling.MySQLConnectionPool(**db_config)
 
 
-
 class Scan_JSON:
-
     def __init__(self):
-
-        # 根目录
-        self.root_dir = r"F:\LifeQ\数据工程\demo0122\demo"
+        # 动态获取项目根目录
+        current_dir = os.path.dirname(os.path.abspath(__file__))  # 当前文件所在目录
+        project_root = os.path.dirname(current_dir)  # 项目根目录
+        # 构建 JSONExample/demo 目录的路径
+        self.root_dir = os.path.join(project_root, "JSONExample", "demo")
 
         # 二级目录列表
         self.sub_dirs = ["daily_summary", "near_real_time", "notification_message", "sle_bioage"]
@@ -104,7 +105,7 @@ class Scan_JSON:
 
                 # 如果没有发现新文件，并且距离上次打印监控日志已经超过 5 分钟
                 current_time = time.time()
-                if not new_files_found and current_time - self.last_monitor_log_time >= 300:  # 300 秒 = 5 分钟
+                if not new_files_found and current_time - self.last_monitor_log_time >= 30:  # 300 秒 = 5 分钟
                     # 计算时间区间
                     start_time = datetime.fromtimestamp(self.last_monitor_log_time).strftime("%Y-%m-%d %H:%M:%S")
                     end_time = datetime.fromtimestamp(current_time).strftime("%Y-%m-%d %H:%M:%S")
@@ -124,29 +125,6 @@ class Scan_JSON:
         self.scan_directory()
 
 
-    def setup(self):
-        self.scan_directory()
-
-
-
 if __name__ == "__main__":
     scan_json = Scan_JSON()
     scan_json.setup()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

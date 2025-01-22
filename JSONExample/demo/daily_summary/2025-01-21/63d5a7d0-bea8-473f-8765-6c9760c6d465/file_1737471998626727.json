@@ -1,0 +1,51 @@
+{
+    "data": {
+        "activity": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737151200,
+                "v": {
+                    "totalActiveDuration": 60.0,
+                    "totalActiveEvents": 11,
+                    "totalActiveIntensityMinutes": 38.0,
+                    "totalActiveLightDuration": 44.0,
+                    "totalActiveModerateDuration": 16.0,
+                    "totalActiveVigorousDuration": 0.0,
+                    "totalExerciseEvents": 1,
+                    "totalFitnessEvents": 1,
+                    "totalStationaryDuration": 533.0,
+                    "totalStationaryEvents": 19
+                }
+            }
+        ],
+        "heartRate": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737151200,
+                "v": {
+                    "averageHeartRate": 80.0,
+                    "maxHeartRate": 135.0,
+                    "minHeartRate": 52.0,
+                    "restingHeartRate": 68
+                }
+            }
+        ],
+        "utilization": [
+            {
+                "timeZoneOffsetInMinutes": 120,
+                "ts": 1737151200,
+                "v": {
+                    "utilization": 1241,
+                    "validHeartRate": 1237
+                }
+            }
+        ]
+    },
+    "header": {
+        "count": 3,
+        "endDate": "2025-01-19",
+        "endTime": "00:00",
+        "startDate": "2025-01-18",
+        "startTime": "00:00"
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "header": {
+        "count": 1,
+        "startDate": "2024-12-20",
+        "startTime": "00:00:00",
+        "endDate": "2025-01-18",
+        "endTime": "23:59:59",
+        "info": {
+            "code": 8000000,
+            "message": "Activity: Confidence: 4/30 Fitness: Confidence: 4/30 Heart: Confidence: 4/30, Heart BioAge confidence:  Sleep: Confidence: 4/30 Mental: Confidence: 4/30 ",
+            "boostMessage": "Sleep: No TST data available "
+        }
+    },
+    "data": [
+        {
+            "ts": 1737151200,
+            "v": {
+                "bioAge": 39,
+                "bioAgeFraction": 38.93303709306673,
+                "delta": 0,
+                "deltaFraction": -0.06696290693327,
+                "rating": "GOOD",
+                "ratingFraction": "GOOD",
+                "ageDiff": 0,
+                "boost24": 27,
+                "boostRating": "FAIR",
+                "utilizationConfidence": null,
+                "bioageConfidence": null,
+                "profileAge": 39,
+                "activityAge": {
+                    "bioAge": 35,
+                    "bioAgeFraction": 34.95964992346231,
+                    "delta": -4,
+                    "deltaFraction": -4.040350076537692,
+                    "rating": "EXCEPTIONAL",
+                    "ratingFraction": "EXCEPTIONAL",
+                    "ageDiff": -4,
+                    "boost24": 53,
+                    "boostRating": "GOOD",
+                    "minutes": {
+                        "bioAge": 35,
+                        "bioAgeFraction": 34.84782293890721,
+                        "delta": -4,
+                        "deltaFraction": -4.152177061092793,
+                        "rating": "FAIR",
+                        "ratingFraction": "GOOD"
+                    },
+                    "sedentary": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "EXCEPTIONAL",
+                        "ratingFraction": "EXCEPTIONAL"
+                    },
+                    "rhr": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.1118269845551,
+                        "delta": 0,
+                        "deltaFraction": 0.1118269845551012,
+                        "rating": "EXCEPTIONAL",
+                        "ratingFraction": "EXCEPTIONAL"
+                    },
+                    "utilizationConfidence": 4,
+                    "bioageConfidence": "LOW",
+                    "minutesBioAge": 35,
+                    "minutesAgeDiff": -4,
+                    "minutesRating": "FAIR",
+                    "sedentaryBioAge": 39,
+                    "sedentaryAgeDiff": 0,
+                    "sedentaryRating": "EXCEPTIONAL",
+                    "restingHeartRateBioAge": 39,
+                    "restingHeartRateAgeDiff": 0,
+                    "restingHeartRateRating": "EXCEPTIONAL"
+                },
+                "fitnessAge": {
+                    "bioAge": 38,
+                    "bioAgeFraction": 38.249854301705156,
+                    "delta": -1,
+                    "deltaFraction": -0.750145698294844,
+                    "rating": "GOOD",
+                    "ratingFraction": "GOOD",
+                    "ageDiff": -1,
+                    "boost24": 32,
+                    "boostRating": "FAIR",
+                    "vo2Max": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.00000000000001,
+                        "delta": 0,
+                        "deltaFraction": 7.105427357601002e-15,
+                        "rating": "EXCELLENT",
+                        "ratingFraction": "EXCELLENT"
+                    },
+                    "fitnessPoints": {
+                        "bioAge": 38,
+                        "bioAgeFraction": 38.24985430170515,
+                        "delta": -1,
+                        "deltaFraction": -0.7501456982948511,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "utilizationConfidence": 4,
+                    "bioageConfidence": "LOW",
+                    "vo2MaxBioAge": 39,
+                    "vo2MaxAgeDiff": 0,
+                    "vo2MaxRating": "EXCELLENT",
+                    "fitnessPointsBioAge": 38,
+                    "fitnessPointsAgeDiff": -1,
+                    "fitnessPointsRating": "GOOD"
+                },
+                "heartAge": {
+                    "bioAge": 44,
+                    "bioAgeFraction": 43.52264414709945,
+                    "delta": 5,
+                    "deltaFraction": 4.522644147099449,
+                    "rating": "POOR",
+                    "ratingFraction": "POOR",
+                    "ageDiff": 5,
+                    "boost24": 22,
+                    "boostRating": "POOR",
+                    "sdnn": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.00000000000001,
+                        "delta": 0,
+                        "deltaFraction": 7.105427357601002e-15,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "rmssd": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "hr": {
+                        "bioAge": 44,
+                        "bioAgeFraction": 43.52264414709945,
+                        "delta": 5,
+                        "deltaFraction": 4.522644147099449,
+                        "rating": "FAIR",
+                        "ratingFraction": "FAIR"
+                    },
+                    "hrv": {
+                        "bioAge": 44,
+                        "bioAgeFraction": 43.52264414709945,
+                        "delta": 5,
+                        "deltaFraction": 4.522644147099449,
+                        "rating": "FAIR",
+                        "ratingFraction": "FAIR"
+                    },
+                    "pwf": {
+                        "bioAge": 44,
+                        "bioAgeFraction": 43.52264414709945,
+                        "delta": 5,
+                        "deltaFraction": 4.522644147099449,
+                        "rating": "FAIR",
+                        "ratingFraction": "FAIR"
+                    },
+                    "utilizationConfidence": 4,
+                    "bioageConfidence": "NONE",
+                    "sdnnBioAge": 39,
+                    "sdnnAgeDiff": 0,
+                    "sdnnRating": "GOOD",
+                    "rmssdBioAge": 39,
+                    "rmssdAgeDiff": 0,
+                    "rmssdRating": "GOOD",
+                    "hrBioAge": 44,
+                    "hrAgeDiff": 5,
+                    "hrRating": "FAIR",
+                    "hrvBioAge": 44,
+                    "hrvAgeDiff": 5,
+                    "hrvRating": "FAIR",
+                    "pwfBioAge": 44,
+                    "pwfAgeDiff": 5,
+                    "pwfRating": "FAIR"
+                },
+                "sleepAge": {
+                    "bioAge": 39,
+                    "bioAgeFraction": 39.0,
+                    "delta": 0,
+                    "deltaFraction": 0.0,
+                    "rating": "GOOD",
+                    "ratingFraction": "GOOD",
+                    "ageDiff": 0,
+                    "boost24": 0,
+                    "boostRating": "POOR",
+                    "tst": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "rem": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "EXCELLENT",
+                        "ratingFraction": "EXCELLENT"
+                    },
+                    "deep": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "utilizationConfidence": 4,
+                    "bioageConfidence": "NONE",
+                    "tstBioAge": 39,
+                    "tstAgeDiff": 0,
+                    "tstRating": "GOOD",
+                    "remSleepBioAge": 39,
+                    "remSleepAgeDiff": 0,
+                    "remRating": "EXCELLENT",
+                    "deepSleepBioAge": 39,
+                    "deepSleepAgeDiff": 0,
+                    "deepRating": "GOOD"
+                },
+                "mentalAge": {
+                    "bioAge": 39,
+                    "bioAgeFraction": 39.0,
+                    "delta": 0,
+                    "deltaFraction": 0.0,
+                    "rating": "GOOD",
+                    "ratingFraction": "GOOD",
+                    "ageDiff": 0,
+                    "boost24": null,
+                    "boostRating": null,
+                    "rmssd": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "GOOD",
+                        "ratingFraction": "GOOD"
+                    },
+                    "rem": {
+                        "bioAge": 39,
+                        "bioAgeFraction": 39.0,
+                        "delta": 0,
+                        "deltaFraction": 0.0,
+                        "rating": "EXCELLENT",
+                        "ratingFraction": "EXCELLENT"
+                    },
+                    "utilizationConfidence": 4,
+                    "bioageConfidence": "NONE",
+                    "rmssdBioAge": 39,
+                    "rmssdAgeDiff": 0,
+                    "rmssdRating": "GOOD",
+                    "remBioAge": 39,
+                    "remAgeDiff": 0,
+                    "remRating": "EXCELLENT"
+                }
+            }
+        }
+    ]
+}
