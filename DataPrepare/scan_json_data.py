@@ -15,8 +15,8 @@ logging.basicConfig(
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "yourpassword",
-    "database": "file_monitor",
+    "password": "123456",
+    "database": "lanq",
     "pool_name": "scan_pool",
     "pool_size": 5
 }
@@ -24,55 +24,115 @@ db_config = {
 # 初始化数据库连接池
 db_pool = pooling.MySQLConnectionPool(**db_config)
 
-def get_device_id(file_path):
-    """从文件路径中解析设备 ID"""
-    parts = file_path.split(os.sep)
-    for part in parts:
-        if len(part) == 36 and "-" in part:  # UUID 格式
-            return part
-    return None
 
-def scan_directory(root_dir):
-    """扫描目录并记录 JSON 文件信息"""
-    while True:
-        try:
-            # 获取数据库连接
-            conn = db_pool.get_connection()
-            cursor = conn.cursor()
 
-            # 遍历目录
-            for dirpath, dirnames, filenames in os.walk(root_dir):
-                for filename in filenames:
-                    if filename.startswith("file_") and filename.endswith(".json"):
-                        file_path = os.path.join(dirpath, filename)
-                        device_id = get_device_id(file_path)
+class Scan_JSON:
 
-                        # 检查文件是否已记录
-                        cursor.execute("SELECT file_path FROM scan_json_data WHERE file_path = %s", (file_path,))
-                        if not cursor.fetchone():
-                            # 插入新记录
-                            cursor.execute(
-                                "INSERT INTO scan_json_data (file_path, device_id, file_name) VALUES (%s, %s, %s)",
-                                (file_path, device_id, filename)
-                            )
-                            conn.commit()
-                            logging.info(f"Scanned new file: {file_path}")
+    def __init__(self):
 
-            # 关闭数据库连接
-            cursor.close()
-            conn.close()
+        # 根目录
+        self.root_dir = r"F:\LifeQ\数据工程\demo0122\demo"
 
-            # 等待一段时间后再次扫描
-            time.sleep(10)
-        except Error as e:
-            logging.error(f"Database error: {e}")
-        except Exception as e:
-            logging.error(f"Error in scan_directory: {e}")
-            time.sleep(10)  # 避免频繁报错
+        # 二级目录列表
+        self.sub_dirs = ["daily_summary", "near_real_time", "notification_message", "sle_bioage"]
+
+        # 上次打印监控日志的时间
+        self.last_monitor_log_time = time.time()
+
+        # 上次发现新文件的时间
+        self.last_new_file_time = None
+
+    def scan_directory(self):
+        """扫描目录并记录 JSON 文件信息"""
+        while True:
+            try:
+                # 获取数据库连接
+                conn = db_pool.get_connection()
+                cursor = conn.cursor()
+
+                # 遍历二级目录
+                new_files_found = False  # 标记是否发现新文件
+                for sub_dir in self.sub_dirs:
+                    sub_dir_path = os.path.join(self.root_dir, sub_dir)
+                    if not os.path.exists(sub_dir_path):
+                        logging.warning(f"Sub directory not found: {sub_dir_path}")
+                        continue
+
+                    # 遍历三级目录（日期目录）
+                    for date_dir in os.listdir(sub_dir_path):
+                        date_dir_path = os.path.join(sub_dir_path, date_dir)
+                        if not os.path.isdir(date_dir_path):
+                            continue
+
+                        # 遍历四级目录（device_id 目录）
+                        for device_id in os.listdir(date_dir_path):
+                            device_dir_path = os.path.join(date_dir_path, device_id)
+                            if not os.path.isdir(device_dir_path):
+                                continue
+
+                            # 遍历 JSON 文件
+                            for filename in os.listdir(device_dir_path):
+                                if filename.startswith("file_") and filename.endswith(".json"):
+                                    file_path = os.path.join(device_dir_path, filename)
+
+                                    # 检查文件是否已记录
+                                    cursor.execute(
+                                        """
+                                        SELECT id FROM scan_json_data 
+                                        WHERE sub_dir = %s AND date_dir = %s AND device_id = %s AND file_name = %s
+                                        """,
+                                        (sub_dir, date_dir, device_id, filename)
+                                    )
+                                    if not cursor.fetchone():
+                                        # 插入新记录
+                                        cursor.execute(
+                                            """
+                                            INSERT INTO scan_json_data 
+                                            (file_path, sub_dir, date_dir, device_id, file_name) 
+                                            VALUES (%s, %s, %s, %s, %s)
+                                            """,
+                                            (file_path, sub_dir, date_dir, device_id, filename)
+                                        )
+                                        conn.commit()
+                                        logging.info(f"Scanned new file: {file_path}")
+                                        new_files_found = True  # 标记发现新文件
+                                        self.last_new_file_time = time.time()  # 更新上次发现新文件的时间
+
+                # 关闭数据库连接
+                cursor.close()
+                conn.close()
+
+                # 如果没有发现新文件，并且距离上次打印监控日志已经超过 5 分钟
+                current_time = time.time()
+                if not new_files_found and current_time - self.last_monitor_log_time >= 300:  # 300 秒 = 5 分钟
+                    # 计算时间区间
+                    start_time = datetime.fromtimestamp(self.last_monitor_log_time).strftime("%Y-%m-%d %H:%M:%S")
+                    end_time = datetime.fromtimestamp(current_time).strftime("%Y-%m-%d %H:%M:%S")
+                    logging.info(f"正在持续监控中，{start_time} - {end_time} 之间无新文件...........")
+                    self.last_monitor_log_time = current_time  # 更新上次打印监控日志的时间
+
+                # 等待一段时间后再次扫描
+                time.sleep(10)
+            except Error as e:
+                logging.error(f"Database error: {e}")
+            except Exception as e:
+                logging.error(f"Error in scan_directory: {e}")
+                time.sleep(10)  # 避免频繁报错
+
+    def setup(self):
+        """启动扫描"""
+        self.scan_directory()
+
+
+    def setup(self):
+        self.scan_directory()
+
+
 
 if __name__ == "__main__":
-    root_directory = "/root/lanq"
-    scan_directory(root_directory)
+    scan_json = Scan_JSON()
+    scan_json.setup()
+
 
 
 
